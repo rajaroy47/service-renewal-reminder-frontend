@@ -52,6 +52,7 @@ button:disabled { opacity: .6; cursor: not-allowed; }
 button.secondary { background: #eef2f6; color: #14213d; }
 button.success { background: #16a34a; }
 button.danger { background: #dc2626; }
+button.warning { background: #bec642 }
 button.export-excel { background: #16a34a; color: #eef2f6; }
 .link-btn {
   background: none; border: none; color: #185adb; padding: 0 0 0 6px;

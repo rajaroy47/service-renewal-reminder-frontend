@@ -268,10 +268,10 @@ export default function Dashboard({ username, onLogout }) {
           </div>
           <div className="user-menu">
             <span className="user-pill">👤 {username}</span>
-            <button className="secondary" onClick={() => { setPwError(""); setPwSuccess(""); setPwModalOpen(true); }}>
+            <button className="warning" onClick={() => { setPwError(""); setPwSuccess(""); setPwModalOpen(true); }}>
               Change Password
             </button>
-            <button className="secondary" onClick={onLogout}>Logout</button>
+            <button className="danger" onClick={onLogout}>Logout</button>
           </div>
         </div>
       </header>
