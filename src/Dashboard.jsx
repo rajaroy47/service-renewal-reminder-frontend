@@ -282,7 +282,7 @@ export default function Dashboard({ username, onLogout }) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <button className="secondary" onClick={exportExcel}>⬇ Export Excel</button>
+        <button className="export-excel" onClick={exportExcel}>⬇ Export Excel</button>
         <button onClick={openCreate}>+ Add Client</button>
       </section>
 
