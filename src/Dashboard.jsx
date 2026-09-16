@@ -472,9 +472,9 @@ export default function Dashboard({ username, onLogout }) {
             <label>New Expired Date (optional — leave as is to keep the current date)</label>
             <input type="date" value={renewDate} onChange={(e) => setRenewDate(e.target.value)} />
 
-            <p className="hint">
+            {/* <p className="hint">
               "Last Renewed At" will be set to the current date &amp; time automatically the moment you confirm.
-            </p>
+            </p> */}
 
             <div className="actions">
               <button type="button" className="secondary" onClick={() => setRenewTarget(null)}>Cancel</button>
